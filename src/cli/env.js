@@ -1,7 +1,3 @@
-import fs from 'fs';
-import path from 'path';
-import { fileURLToPath } from 'url';
-
 const parseEnv = () => {
     const envVars = process.env;
     process.env.RSS_API_KEY = '123456';
